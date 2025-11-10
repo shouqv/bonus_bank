@@ -3,20 +3,18 @@
 
 ## Description
 
-This project is an updated and extended version of my original [Python-based bank system](https://github.com/shouqv/Bank-project).
-It was built with a focus on Test-Driven Development (TDD), modular design, and simulating real-world banking workflows.
+This project implements a banking system in Python, allowing cashiers to manage customer accounts stored in a CSV file. It leverages file handling, exception handling, and is developed following a test-driven development (TDD) approach.
 
-
-In addition to the core features (customer management, deposits, withdrawals, transfers, exceptions handling), this version introduces several new enhancements, including:
-
+The system supports functionalities including:
+- Adding new customers
+- Depositing and withdrawing money
+- Transferring funds between accounts, including to other customers' accounts
+- Overdraft protection with rules and account reactivation
+Custom exceptions to handle invalid inputs and errors (e.g., invalid options, incorrect IDs, empty files, invalid numeric values, inactive accounts, overdraft-related errors, etc.)
 - Transaction history with detailed logging and indexing
-
 - Password strength validation for secure customer accounts
-
 - Custom overdraft limits with account deactivation rules
-
 - Automated account statement reports (.txt format)
-
 - Random bonus system for lowest balances
 
 
